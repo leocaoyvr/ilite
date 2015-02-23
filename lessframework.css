@@ -1,0 +1,164 @@
+/*	Less Framework 3
+	by Joni Korpi
+	http://lessframework.com	*/
+
+
+/*	Resets
+	------	*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figure,figcaption,hgroup,menu,header,footer,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0}article,aside,canvas,figure,figure img,figcaption,hgroup,footer,header,nav,section,audio,video{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge,
+h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+
+.large,
+h2,
+#content h1 {
+	font-size: 42px;
+	line-height: 48px;
+}
+
+.big,
+h3,
+#content h2 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.normal,
+body,
+#content h3 {
+	font: 16px/24px Helvetica Neue, Helvetica, Trebuchet MS, Arial, Verdana, Tahoma, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1); -moz-text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}
+
+.small {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+abbr,
+acronym{
+	border-bottom: 1px dotted;
+	cursor: help;
+	font-variant: small-caps;
+}
+address,
+cite,
+em,
+i{
+	font-style: italic;
+}
+a {
+	-webkit-transition: color .3s linear;
+	-o-transition: color .3s linear;
+	-moz-transition: color .3s linear;
+	text-decoration: none;
+	outline: none;
+}
+a:active,
+a:focus {
+	text-decoration: underline;
+}
+
+/*	Default 8-column layout
+	60 px columns, 24 px gutters, 60 px margins, 768 px total
+	---------------------------------------------------------
+	1     2      3      4      5      6      7      8     
+	60px  144px  228px  312px  396px  480px  564px  648px	*/
+
+#if-logged-in {
+	position: relative;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	background: #000;
+	color: #aaa;
+	font-size: 10px;
+	z-index: 1000;
+}
+	#if-logged-in .container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	#if-logged-in p {
+		margin: 0;
+	}
+	#if-logged-in a:link,
+	#if-logged-in a:visited {
+		color: #fff;
+		text-decoration: none;
+	}
+	#if-logged-in a:hover {
+		text-decoration: underline;
+	}
+	#if-logged-in a:active {
+		text-decoration: underline;
+		margin-bottom: -1px;
+	}
+
+
+.container {
+	padding: 0 60px;
+	width: 648px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+	#header-image {
+		padding: 0;
+		overflow: hidden;
+	}
+		/* HEADER IMAGE
+			full size - 1068x300
+			8 column layout resized to 890x250 displayed at 648x250
+			5 column layout resized to 534x150 displayed at 396x150
+			3 column layout resized to 365x100 displayed at 228x100
+		 */
+		#header-image img {
+			width: 890px;
+			height: 250px;
+			margin-left: -121px;
+			padding: 0;
+		}
+
+::selection {
+	background: #c6d8cd;
+}
+::-moz-selection {
+	background: #c6d8cd;
+}
+img::selection {
+	background: transparent;
+}
+img::-moz-selection {
+	background: transparent;
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
