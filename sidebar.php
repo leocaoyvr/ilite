@@ -1,5 +1,6 @@
 <div id="sidebar">
-	<div id="socials" class="widget-area widget-sidebar">
+	<!--
+ 	<div id="socials" class="widget-area widget-sidebar">
 		<h3>Follow Me!</h3>
 		<a href="http://ilite.me/feed/" target="_blank" title="Subscribe to I LITE" class="socialicon rss">rss</a>
 		<a href="mailto://vivianalive.hotmail.com" title="Write email to me" class="socialicon mail">email</a>
@@ -8,6 +9,7 @@
 		<a href="http://twitter.com/vivianalive" target="_blank" title="Follow my Twitter" class="socialicon twitter">twitter</a>
 		<a href="#top" id="mtop">TOP ↑</a>
 	</div>
+	-->
 
 	<?php if ( ! dynamic_sidebar( 'Sidebar' )) : ?>
 	<ul>
