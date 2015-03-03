@@ -36,31 +36,9 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/lessframework.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/smooth.pack.js"></script>
-
-	<!--Huston, we have found more scripts!-->
-	<!--menu static > fixed-->
-	<script type="text/javascript">
-	jQuery(document).ready(function ($) {  //using jQuery instead of $ at the beginning to fix the object not a funtion error
-	  var top = $('#socials').offset().top - parseFloat($('#socials').css('marginTop').replace(/auto/, 0));
-	  $(window).scroll(function (event) {
-	    // what the y position of the scroll is
-	    var y = $(this).scrollTop();
-	  
-	    // whether that's below the form
-	    if (y >= top) {
-	      // if so, ad the fixed class
-	      $('#socials').addClass('fixed');
-	    } else {
-	      // otherwise remove it
-	      $('#socials').removeClass('fixed');
-	    }
-	  });
-	});
-	</script>
 	
 	<!--improve the compatibility with IE 6,7,8-->
 	<!--[if lt IE 9]>
-	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/ie8.css" />
 	<![endif]-->
 	

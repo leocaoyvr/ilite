@@ -17,9 +17,9 @@ Created: 2011/02/16
 Updated: 2013/07/18
 */
 
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700); */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
-@font-face {
+/*@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
@@ -36,7 +36,7 @@ Updated: 2013/07/18
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), url(fonts/open-sans-bold.woff) format('woff');
-}
+}*/
 
 /*
     general styles
@@ -777,11 +777,11 @@ img[title="I LITE logo"], img[alt="I LITE logo small"] {
 div.post-single, div.post, div.page {
     position: relative;
     animation: move 0.4s ease-in 1 normal;
-    /* Firefox: */;
+    /* Firefox: */
     -moz-animation: move 0.4s ease-in 1 normal;
-    /* Safari and Chrome: */;
+    /* Safari and Chrome: */
     -webkit-animation: move 0.4s ease-in 1 normal;
-    /* Opera: */;
+    /* Opera: */
     -o-animation: move 0.4s ease-in 1 normal;
 }
 
@@ -838,11 +838,11 @@ div.post-single, div.post, div.page {
 #sidebar div ul, #socials {
     position: relative;
     animation: sidemove 0.4s ease-in 1 normal;
-    /* Firefox: */;
+    /* Firefox: */
     -moz-animation: sidemove 0.4s ease-in 1 normal;
-    /* Safari and Chrome: */;
+    /* Safari and Chrome: */
     -webkit-animation: sidemove 0.4s ease-in 1 normal;
-    /* Opera: */;
+    /* Opera: */
     -o-animation: sidemove 0.4s ease-in 1 normal;
 }
 

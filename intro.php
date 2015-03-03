@@ -1,10 +1,10 @@
 <?php
 /*
-Template Name: splash page
+Template Name: welcome page
 */
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head prefix="og: http://ogp.me/ns#">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -17,7 +17,6 @@ Template Name: splash page
 <meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/screenshot.png">
 <meta property="og:image:width" content="300" />
 <meta property="og:image:height" content="225" />
-<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=0.5" />
 <meta name="p:domain_verify" content="37e9423aba57ae2eb197fdae2c5c1018"/> <!-- Pinterest verification -->
 
 <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/ico-64x64.ico" type="image/png" />
@@ -29,22 +28,10 @@ Template Name: splash page
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
 
-<script type="text/javascript">
-//ga
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-23230199-3']);
-_gaq.push(['_trackPageview']);
-(function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-
 </head>
 
 <body>
-	<div id="main" align="middle" class="vcenter" >
+	<div id="main"> <!-- B #main -->
 		<div id="card" class="container">
 			<div id="profile" align="middle">
 				<div id="avatar">
@@ -92,21 +79,20 @@ _gaq.push(['_trackPageview']);
 				<li><a href="<?php bloginfo('url'); ?>/category/write/">Write</a></li>
 			</ul>
 		</div>
-	</div>
-</body>
+	</div><!-- E #main -->
 
 <script type="text/javascript">
-//position main in center
-setH();
-$(window).resize(function(e){setH()});
-function setH(){
-	var winH=$(window).height(),
-		topHT=(winH-597)/2,
-		x=0.3;
-	if(winH<=768) x=-0.1;
-	if(winH<=900&&winH>768) x=0.1;
-	$('.vcenter').css('margin-top',topHT-topHT*x).fadeIn();
-}
+//ga
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23230199-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>
+
+</body>
 
 </html>
