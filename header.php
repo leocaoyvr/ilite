@@ -35,6 +35,7 @@
 	<?php /* Remove the Less Framework CSS line to not include the CSS Reset, basic styles/positioning, and Less Framework itself */?>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/lessframework.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<meta name="wot-verification" content="e66f763f6e79d79e9ddb"/>
 	<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/smooth.pack.js"></script>
 	
 	<!--improve the compatibility with IE 6,7,8-->
