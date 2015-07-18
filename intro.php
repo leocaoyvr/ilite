@@ -8,7 +8,7 @@ Template Name: welcome page
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head prefix="og: http://ogp.me/ns#">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>I LITE | Back to Simplicity</title>
+<title>I LITE | Code, Design &amp; Life</title>
 <meta name="description" content="vivianalive personal blog &amp; portfolio on technical translation, WOW, Web Design, UI Design, SEO and Social Media." />
 <meta name="keywords" content="WOW, CeeUI, vivianalive, Social Media Marketing, Web Design, SEO" />
 <meta property="og:type" content="website" />
