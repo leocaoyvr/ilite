@@ -12,7 +12,7 @@ Template Name: welcome page
 <meta name="description" content="vivianalive personal blog &amp; portfolio on technical translation, WOW, Web Design, UI Design, SEO and Social Media." />
 <meta name="keywords" content="WOW, CeeUI, vivianalive, Social Media Marketing, Web Design, SEO" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="I LITE | Back to Simplicity" />
+<meta property="og:title" content="I LITE | Code, Design &amp; Life" />
 <meta property="og:description" content="vivianalive personal blog &amp;amp; portfolio on technical translation, WOW, Web Design, UI Design, SEO and Social Media.">
 <meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/screenshot.png">
 <meta property="og:image:width" content="300" />
