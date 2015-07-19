@@ -11,7 +11,7 @@ Check the live demo here: http://ilite.me
 Note:
 
 >   MIT License (MIT) Copyright (c) [2015] [Vivian Alive]  
->   A link(http://ilite.me) to I LITE is required. Thx!
+>   A link(http://ilite.me) to I LITE is appreciated. Thx!
 
 **Article/post page**
 
