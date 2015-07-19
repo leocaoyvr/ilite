@@ -1,16 +1,19 @@
-# ilite
 
-Wordpress theme for ilite.me
+#   I LITE Wordpress Theme
 
+I LITE is a minimal theme that was designed with love, and was for life recording.
 
-## Local setup
+I designed and created it on Feb 2011 when I first started to learn web design and development. So basically it’s the first and experimental project I’d worked out.
 
-**update server path**
+Feel free to download and fork it on Github.
 
-    <?php echo dirname(__FILE__); ?>
+Check the live demo here: http://ilite.me
 
-**update image URL**
+Note:
 
-    UPDATE wp_posts SET post_content = replace(post_content, 'http://img.ilite.me', 'http://192.168.1.100:201');
-    UPDATE wp_posts SET guid = replace(guid, 'http://img.ilite.me', 'http://192.168.1.100:201');
+>   MIT License (MIT) Copyright (c) [2015] [Vivian Alive]
+>   A link(http://ilite.me) to this website is required.
 
+**Article/post page**
+
+![ilite article, post page](http://img.ilite.me/ilite-article.jpg)
