@@ -33,7 +33,7 @@ Note:
 
 ![ilite 404 page](http://img.ilite.me/ilite-404.jpg)
 
-**image gallery**
+**Image gallery**
 
 ![ilite image gallery](http://img.ilite.me/ilite-gallery.jpg)
 
