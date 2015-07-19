@@ -1,6 +1,6 @@
 #   I LITE Wordpress Theme
 
-I LITE is a minimal theme that was designed with love, and was for life recording.
+I LITE is a minimal Wordpress theme that was designed with love.
 
 I designed and created it on Feb 2011 when I first started to learn web design and development. So basically it’s the first and experimental project I’d worked out.
 
