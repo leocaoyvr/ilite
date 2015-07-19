@@ -166,6 +166,8 @@ a:link, a:visited { color: #2D96BD }
 
 a:hover, a:active { color: #9C0001 }
 
+a:hover, a:active { text-decoration: none }
+
 .upper_sml, .upper_sml, .upper_sml {
     font-size: 0.75em;
     color: #aaa;
