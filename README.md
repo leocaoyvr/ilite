@@ -15,6 +15,8 @@ Note:
 
 **Article/post page**
 
+using paper stack effect in the bottom
+
 ![ilite article, post page](http://img.ilite.me/ilite-article.jpg)
 
 **Footer**
@@ -23,21 +25,31 @@ Note:
 
 **Comment module**
 
+using Disqus plugin
+
 ![ilite Comment module](http://img.ilite.me/ilite-comment.jpg)
 
 **Arhive page**
+
+Create New Page > Page Template > Archives, just leave empty
 
 ![ilite Archive page](http://img.ilite.me/ilite-archive.jpg)
 
 **404 page**
 
+ When the countdown ends, it will redirect the visitor to the homepage.
+
 ![ilite 404 page](http://img.ilite.me/ilite-404.jpg)
 
 **Image gallery**
 
+using default upload/insert method, using Caption as description
+
 ![ilite image gallery](http://img.ilite.me/ilite-gallery.jpg)
 
 **Welcome page**
+
+Create New Page > Template > Welcome Page
 
 ![ilite welcome page](http://img.ilite.me/ilite-welcome.jpg)
 
