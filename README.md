@@ -15,11 +15,11 @@ Note:
 
 **Article/post page**
 
-using paper stack effect in the bottom
-
 ![ilite article, post page](http://img.ilite.me/ilite-article.jpg)
 
 **Footer**
+
+paper stack effect in the bottom
 
 ![ilite footer](http://img.ilite.me/ilite-footer.jpg)
 
@@ -50,6 +50,8 @@ using default upload/insert method, using Caption as description
 **Welcome page**
 
 Create New Page > Template > Welcome Page
+
+This part requires a bit of HTML editing, coz some of it are hard coded.
 
 ![ilite welcome page](http://img.ilite.me/ilite-welcome.jpg)
 
