@@ -407,11 +407,6 @@ blockquote.indent {
 
 #content .widget-alert a {
     display: inline-block;
-    color: #505050;
-}
-
-#content .widget-alert a:hover {
-	color: #9c0001;
 }
 
 #sidebar .children { padding-left: 10px }
