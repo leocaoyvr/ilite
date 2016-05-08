@@ -910,20 +910,26 @@ div.post-single, div.post, div.page {
 	border: 1px solid #777;
 }
 
-/*dribbble widget*/
+/* sidebar widgets */
 
 #sidebar .zilla-dribbble-shots li {
 	border-top: 1px dashed #dedede;
 	padding-top: 1em;
 	padding-bottom: 0.6em;
+    float: none;
 }
 
 #sidebar .zilla-dribbble-shots img {
 	margin: 0;
 	box-shadow: none;
-	border-radius: 2px;
+	border-radius: 3px;
 	padding: 0;
+    width: 100%;
+    height: auto;
 }
+
+#sidebar .zilla-dribbble-shots .views-likes-overlay { display: none; }
+
 
 .none { /* this class is used to hid the skip to content link at the beginning of the document for accessibility */ display: none;   }
 
