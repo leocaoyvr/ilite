@@ -19,7 +19,7 @@
 	} else {
 		echo wp_title(''); echo ' | '; bloginfo( 'name' );
 	} ?></title>
-	
+
     <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/ico-64x64.ico" type="image/png" />
     <link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/images/touch-ico-512x512.png" type="image/png" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -36,13 +36,14 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/lessframework.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<meta name="wot-verification" content="e66f763f6e79d79e9ddb"/>
+	<meta name="viewport" content="width=device-width">
 	<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/scripts/smooth.pack.js"></script>
-	
+
 	<!--improve the compatibility with IE 6,7,8-->
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/ie8.css" />
 	<![endif]-->
-	
+
 </head>
 
 <body <?php body_class(); ?>>

@@ -19,6 +19,7 @@ Template Name: welcome page
 <meta property="og:image:height" content="225" />
 <meta name="p:domain_verify" content="37e9423aba57ae2eb197fdae2c5c1018"/> <!-- Pinterest verification -->
 <meta name="wot-verification" content="e66f763f6e79d79e9ddb"/>
+<meta name="viewport" content="width=600">
 
 <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/ico-64x64.ico" type="image/png" />
 <link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/images/touch-ico-512x512.png" type="image/png" />
@@ -39,7 +40,7 @@ Template Name: welcome page
 					<img width="120" height="120" src="<?php bloginfo( 'template_url' ); ?>/images/vivi.jpg">
 				</div>
 				<h1>Vivian Alive</h1>
-				<p id="title">Web Designer<span class="divider">·</span>Developer<span class="divider">·</span>Student</p>
+				<p id="title">UI/UX Designer<span class="divider">·</span>Developer<span class="divider">·</span>Student</p>
 				<p class="bio">
 					I love everything simple, real and beautiful. I do a bit web design, web<br/>
 					development, technical writing, translating and marketing.
@@ -74,7 +75,7 @@ Template Name: welcome page
 				<li><a href="<?php bloginfo('url'); ?>/archive/">Archive</a></li>
 				<li><a href="<?php bloginfo('url'); ?>/category/code/">Code</a></li>
 				<li><a href="<?php bloginfo('url'); ?>/category/design/">Design</a></li>
-				<li><a href="<?php bloginfo('url'); ?>/category/market/">Market</a></li>
+				<li><a href="<?php bloginfo('url'); ?>/category/life/">Life</a></li>
 				<li><a href="<?php bloginfo('url'); ?>/category/photo/">Photo</a></li>
 				<li><a href="<?php bloginfo('url'); ?>/category/translate/">Translate</a></li>
 				<li><a href="<?php bloginfo('url'); ?>/category/write/">Write</a></li>
