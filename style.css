@@ -64,7 +64,7 @@ strong {
 
 #main {
     padding: 20px 15px;
-    width: 968px;
+    max-width: 968px;
     margin: auto;
     background: url('images/white-30.png') repeat left top;
     border-radius: 4px;
@@ -92,35 +92,35 @@ strong {
 }
 
 #content h1, #content h2, #archives h2 {
-    margin-bottom: 0.5em;
+    margin-bottom: 13px;
 }
 
 #content h1, #archives h2 {
-    font-size: 1.85em;
-    line-height: 2em;
+    font-size: 26px;
+    line-height: 52px;
 }
 
 #content h2 {
-    font-size: 1.75em;
-    line-height: 1.75em;
+    font-size: 23px;
+    line-height: 40px
 }
 
 #content div.post-single h2 {
-    font-size: 1.65em;
-    margin-top: 0.2em;
+    font-size: 23px;
+    margin-top: 6px;
 }
 
 #content h3, #archives h3 {
-    font-size: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 0.75em;
+    font-size: 21px;
+    margin-top: 21px;
+    margin-bottom: 16px;
     text-shadow: none;
 }
 
 #content h4 {
-    font-size: 1.3em;
-    margin-top: 0.5em;
-    padding-left: 1em;
+    font-size: 18px;
+    margin-top: 9px;
+    padding-left: 18px;
 }
 
 #content h2 a, #content h1 a {
@@ -148,10 +148,12 @@ strong {
 body {
     color: #505050;
     padding: 0 0;
-    font: 0.875em/1.75em 'Open Sans', Helvetica, Arial, sans-serif;
+    font: 14px/24px 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
     text-shadow: 0 1px 0 #fff;
     text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 .monospace, var, code { font-family: "courier new", courier, monospace }
@@ -169,7 +171,7 @@ a:hover, a:active { color: #9C0001 }
 a:hover, a:active { text-decoration: none }
 
 .upper_sml, .upper_sml, .upper_sml {
-    font-size: 0.75em;
+    font-size: 11px;
     color: #aaa;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -229,7 +231,7 @@ img {
     transition: opacity 0.3s ease-in-out;
 }
 
-.post-content ul { padding-left: 1.5em; margin-bottom: 1em; }
+.post-content ul { padding-left: 21px; margin-bottom: 14px; }
 
 input, textarea {
     border: 1px #aaa solid;
@@ -257,7 +259,7 @@ blockquote.indent {
 }
 
 .widget-alert {
-    font-size: 0.9em;
+    font-size: 13px;
     color: #999;
     padding-left: 28px;
     padding-right: 10px;
@@ -286,7 +288,7 @@ blockquote.indent {
 }
 
 #title {
-    width: 968px;
+    max-width: 968px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -302,7 +304,7 @@ blockquote.indent {
 
 #tagline {
     padding-right: 20px;
-    font-size: 0.9em;
+    font-size: 13px;
     right: 0;
     line-height: 36px;
     color: #777;
@@ -357,14 +359,15 @@ blockquote.indent {
 .oldernewer .older { float: left; margin-left: 20px; }
 
 #footer {
-    margin: 1em auto;
-    padding-bottom: 1.5em;
-    width: 968px;
+    margin: 20px;
+    padding-bottom: 20px;
+    max-width: 968px;
 }
 
-#footer p{
+#footer p {
     color:#95918b;
-    font-size: 0.8em;
+    font-size: 11px;
+    line-height: 16px;
     text-transform: uppercase;
     text-shadow: 0 1px #ffffff;
 }
@@ -378,7 +381,7 @@ blockquote.indent {
     color: #9C0001;
 }
 
-#sidebar h3 { font-size: 1em; line-height: 1; margin-bottom: 0.5em; font-weight: 400; }
+#sidebar h3 { font-size: 14px; line-height: 1; margin-bottom: 0.5em; font-weight: 400; }
 
 #sidebar .widget-area {
     padding: 0.875em;
@@ -397,7 +400,7 @@ blockquote.indent {
     list-style: none;
 }
 
-#sidebar li { font-size: 0.875em; line-height: 1.8; }
+#sidebar li { font-size: 12px; line-height: 1.8; }
 
 
 #sidebar .textwidget ul li {
@@ -597,8 +600,8 @@ blockquote.indent {
 
 .post-content ul li {
     list-style-type: none;
-    background: url(images/bullet.gif) no-repeat left 0.7em;
-    padding: 0 0 0 1em;
+    background: url(images/bullet.gif) no-repeat left 10px;
+    padding: 0 0 0 14px;
     color: #666;
 }
 
@@ -717,13 +720,13 @@ input, textarea {
 
 #article_list {
     clear: both;
-    padding-top: 1em;
+    padding-top: 14px;
     list-style-type: none;
 }
 
 #article_list ul {
     list-style: none;
-    margin-left: 3.5em;
+    margin-left: 50px;
 }
 
 #archives {
@@ -944,3 +947,20 @@ div.post-single, div.post, div.page {
 .alignleft { text-align: left }
 
 .alignright { text-align: right }
+
+
+/* Responsive
+/* ------------------------- */
+
+@media only screen and (max-width: 1000px) {
+    #sidebar { display: none; }
+
+    #title,
+    #main,
+    #footer {
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

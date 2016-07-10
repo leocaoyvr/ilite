@@ -37,8 +37,10 @@ Updated: 2013/07/18
 body {
     font: 14px/24px 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    text-rendering: optimizeLegibility;
     color: #3a3a3a;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 html {
