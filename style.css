@@ -963,4 +963,14 @@ div.post-single, div.post, div.page {
         margin-right: auto;
     }
 
+    .page-template-page-fw-php #content { width: 608px; }
+
+    .page-template-archives-php #header,
+    .page-template-page-fw-php #header { width: 648px; }
+
+    .page-template-archives-php .paper1,
+    .page-template-page-fw-php .paper1 { width: 644px; }
+
+    .page-template-archives-php .paper2,
+    .page-template-page-fw-php .paper2 { width: 640px; }
 }
