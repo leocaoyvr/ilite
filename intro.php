@@ -40,12 +40,12 @@ Template Name: welcome page
 					<img width="120" height="120" src="<?php bloginfo( 'template_url' ); ?>/images/vivi.jpg">
 				</div>
 				<h1>Vivian Alive</h1>
-				<p id="title">UI/UX Designer<span class="divider">·</span>Developer<span class="divider">·</span>Student</p>
+				<p id="title">UI/UX Designer<span class="divider">·</span>Developer<span class="divider">·</span>Translator</p>
 				<p class="bio">
-					I love everything simple, real and beautiful. I do a bit web design, web<br/>
-					development, technical writing, translating and marketing.
+					I love everything simple, real and beautiful. I do a bit UI/UX design,<br>
+					front-end development, writing, translating and marketing.
 				</p>
-				<p class="bio">Vancouver<span class="divider">·</span>ilite.me</p>
+				<p class="bio">Vancouver, Canada</p>
 			</div>
 
 			<div id="board" align="left">
