@@ -9,11 +9,11 @@ Template Name: welcome page
 <head prefix="og: http://ogp.me/ns#">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>I LITE | Code, Design &amp; Life</title>
-<meta name="description" content="vivianalive personal blog &amp; portfolio on technical translation, WOW, Web Design, UI Design, SEO and Social Media." />
+<meta name="description" content="Vivian Alive is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things." />
 <meta name="keywords" content="WOW, CeeUI, vivianalive, Social Media Marketing, Web Design, SEO" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="I LITE | Code, Design &amp; Life" />
-<meta property="og:description" content="vivianalive personal blog &amp;amp; portfolio on technical translation, WOW, Web Design, UI Design, SEO and Social Media.">
+<meta property="og:description" content="Vivian Alive is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things.">
 <meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/screenshot.png">
 <meta property="og:image:width" content="300" />
 <meta property="og:image:height" content="225" />
