@@ -9,11 +9,10 @@ Template Name: welcome page
 <head prefix="og: http://ogp.me/ns#">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>I LITE | Code, Design &amp; Life</title>
-<meta name="description" content="Vivian Alive is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things." />
-<meta name="keywords" content="WOW, CeeUI, vivianalive, Social Media Marketing, Web Design, SEO" />
+<meta name="description" content="Leo Cao is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things." />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="I LITE | Code, Design &amp; Life" />
-<meta property="og:description" content="Vivian Alive is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things.">
+<meta property="og:description" content="Leo Cao is a Vancouver-based UI/UX designer, who designs and creates simple, clean and beautiful things.">
 <meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/screenshot.png">
 <meta property="og:image:width" content="300" />
 <meta property="og:image:height" content="225" />
@@ -25,7 +24,6 @@ Template Name: welcome page
 <link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/images/touch-ico-512x512.png" type="image/png" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/intro.css" />
 <?php wp_enqueue_script("jquery"); /* Loads jQuery if it hasn't been loaded already */ ?>
-<link href="https://plus.google.com/u/0/116704076391108813160/" rel="author" />
 <script src="<?php bloginfo( 'template_url' ); ?>/scripts/jquery.min.js" type="text/javascript"></script>
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
@@ -37,9 +35,9 @@ Template Name: welcome page
 		<div id="card" class="container">
 			<div id="profile" align="middle">
 				<div id="avatar">
-					<img width="120" height="120" src="<?php bloginfo( 'template_url' ); ?>/images/vivi.jpg">
+					<img width="120" height="120" src="<?php bloginfo( 'template_url' ); ?>/images/leo-500x500.jpg">
 				</div>
-				<h1>Vivian Alive</h1>
+				<h1>Leo Cao</h1>
 				<p id="title">UI/UX Designer<span class="divider">·</span>Developer<span class="divider">·</span>Translator</p>
 				<p class="bio">
 					I love everything simple, real and beautiful. I do a bit UI/UX design,<br>

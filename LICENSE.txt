@@ -1,12 +1,12 @@
 The MIT License (MIT)
 
-Copyright (c) [2015] [Vivian Alive]
+Copyright (c) [2015] [Leo Cao]
 
 Contacts
 
-Author : Vivian Alive
+Author : Leo Cao
 Website: http://ilite.me
-Email  : vivi@ilite.me
+Email  : leo@ilite.me
 
 --------
 
