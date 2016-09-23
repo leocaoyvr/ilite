@@ -38,7 +38,7 @@ Template Name: welcome page
 					<img width="120" height="120" src="<?php bloginfo( 'template_url' ); ?>/images/leo-500x500.jpg">
 				</div>
 				<h1>Leo Cao</h1>
-				<p id="title">UI/UX Designer<span class="divider">·</span>Developer<span class="divider">·</span>Translator</p>
+				<p id="title">UI/UX Designer<span class="divider">·</span>Developer</p>
 				<p class="bio">
 					I love everything simple, real and beautiful. I do a bit UI/UX design,<br>
 					front-end development, writing, translating and marketing.
