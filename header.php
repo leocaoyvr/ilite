@@ -55,7 +55,7 @@
 		<h1 id="logo"><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('description'); ?>" name="top"><img src="<?php bloginfo( 'template_url' ); ?>/images/ilite_logo_2.png" alt="I LITE logo" /></a></h1>
 		<!-- <h2 id="tagline"><?php bloginfo('description'); ?></h2> -->
 	<?php } else { ?>
-		<h2 id="logo"><a href="<?php bloginfo('url'); ?>/blog" title="<?php bloginfo('description'); ?>" name="top"><img src="<?php bloginfo( 'template_url' ); ?>/images/ilite_logo_2.png" alt="I LITE logo" /></a></h2>
+		<h2 id="logo"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('description'); ?>" name="top"><img src="<?php bloginfo( 'template_url' ); ?>/images/ilite_logo_2.png" alt="I LITE logo" /></a></h2>
 		<!-- <h3 id="tagline"><?php bloginfo('description'); ?></h3> -->
 	<?php } ?>
 </div>
