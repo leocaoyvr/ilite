@@ -704,7 +704,8 @@ input, textarea {
 
 /*page with full-width*/
 .page-template-page-fw-php #content {
-    width: 926px;
+    width: calc(100% - 42px);
+    max-width: 926px;
 }
 
 /*archives page*/
@@ -958,19 +959,45 @@ div.post-single, div.post, div.page {
     #title,
     #main,
     #footer {
-        width: 650px;
+        width: calc(100% - 40px);
+        max-width: 650px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .page-template-page-fw-php #content { width: 608px; }
+    #header {
+        width: calc(100% - 2px);
+        max-width: 648px;
+    }
+
+    #content {
+        width: calc(100% - 40px - 2px);
+        max-width: 608px;
+    }
+
+    #archive {
+        width: calc(100% - 40px - 2px);
+    }
+
+    .paper1 {
+        width: calc(100% - 6px);
+        max-width: 644px;
+    }
+
+    .paper2 {
+        width: calc(100% - 10px);
+        max-width: 640px;
+    }
+
+    .post-content p img,
+    .post-content .wp-caption img { max-width: 100%; }
 
     .page-template-archives-php #header,
-    .page-template-page-fw-php #header { width: 648px; }
+    .page-template-page-fw-php #header { width: calc(100% - 2px); }
 
     .page-template-archives-php .paper1,
-    .page-template-page-fw-php .paper1 { width: 644px; }
+    .page-template-page-fw-php .paper1 { width: calc(100% - 6px); }
 
     .page-template-archives-php .paper2,
-    .page-template-page-fw-php .paper2 { width: 640px; }
+    .page-template-page-fw-php .paper2 { width: calc(100% - 10px); }
 }
