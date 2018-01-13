@@ -990,7 +990,10 @@ div.post-single, div.post, div.page {
     }
 
     .post-content p img,
-    .post-content .wp-caption img { max-width: 100%; }
+    .post-content .wp-caption img {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
 
     .page-template-archives-php #header,
     .page-template-page-fw-php #header { width: calc(100% - 2px); }
