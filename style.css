@@ -201,17 +201,17 @@ div.wp-caption { max-width: 100%; }
 
 .comments {
 	padding-left: 23px;
-	background: url(images/comments.png) no-repeat 2px 4px;
+	background: url(images/comment.svg) no-repeat 2px 4px;
 }
 
 .cats {
     padding-left: 23px;
-    background: url(images/cats.png) no-repeat 2px 4px;
+    background: url(images/cats.svg) no-repeat 2px 4px;
 }
 
 .tags {
     padding-left: 23px;
-    background: url(images/tags.png) no-repeat 2px 4px;
+    background: url(images/tags.svg) no-repeat 2px 4px;
 }
 
 .post-content p { margin-bottom: 1em }
@@ -265,7 +265,7 @@ blockquote.indent {
     padding-right: 10px;
     margin-bottom: 0;
     margin-top: 6px;
-    background: url(images/speaker.png) no-repeat 6px 4px #fbfbfd;
+    background: url(images/speaker.svg) no-repeat 6px 4px #fbfbfd;
 }
 
 .widget-alert:hover {
@@ -635,7 +635,7 @@ blockquote.indent {
 #comments-form { margin-top: 20px }
 
 .write_comment {
-    background: url(images/comment.gif) no-repeat 3px center;
+    background: url(images/comment.svg) no-repeat 3px center;
     padding: 3px 0 0 20px;
 }
 
