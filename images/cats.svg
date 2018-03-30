@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>cats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cats" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6.34433208,11.259308 L2.84217094e-14,16 L4.95914532,9.84973914 L2.18195167,7.02366127 L2.85249312,6.3362391 L5.6697461,6.3362391 L9.81731416,10.5205479 L9.79577853,13.3599004 L9.10370144,14.0672478 L6.34433208,11.259308 Z M14.1042674,4.95680266 L9.84374426,10.5404732 L5.6697461,6.29638854 L11.2288773,2.04234122 L11.3927358,2.19715238 L9.85059651,0.627646326 L10.4682778,0 L16,5.62889166 L15.3813399,6.25653798 L14.1042674,4.95680266 Z" id="pin" fill="#999999" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "></path>
+    </g>
+</svg>
