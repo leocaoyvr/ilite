@@ -13,7 +13,9 @@
 					<?php the_content(__('Read more'));?>
 				</div>
 				<div class="post-meta">
-					<p class="comments"><?php _e('Comments: '); comments_popup_link('No Raindrop', '1 Raindrop', '% Raindrops'); ?>
+					<!--
+					<p class="comments"><php _e('Comments: '); comments_popup_link('No Raindrop', '1 Raindrop', '% Raindrops'); >
+					-->
 					<p class="cats"><?php _e('Categories: '); the_category(', ') ?></p>
 					<p class="tags"><?php if (the_tags('Tags: ', ', ', ' ')); ?></p>
 				</div><!--.postMeta-->
@@ -25,7 +27,7 @@
 				<?php get_search_form(); /* outputs the default Wordpress search form */ ?>
 			</div><!--noResults-->
 		<?php endif; ?>
-			
+
 		<div class="oldernewer">
 			<p class="older"><?php next_posts_link('&laquo; Older Entries') ?></p>
 			<p class="newer"><?php previous_posts_link('Newer Entries &raquo;') ?></p>
