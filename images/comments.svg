@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>comments</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="comments" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.01484263,11.7879284 L2.75,15.5 L2.75,11.7879284 C1.78350169,11.7879284 1,10.9504625 1,9.91739595 L1,3.37053243 C1,2.3374659 1.78350169,1.5 2.75,1.5 L13.25,1.5 C14.2164983,1.5 15,2.3374659 15,3.37053243 L15,9.91739595 C15,10.9504625 14.2164983,11.7879284 13.25,11.7879284 L7.01484263,11.7879284 Z" id="speech_bubble" fill="#999999" transform="translate(8.000000, 8.500000) scale(-1, 1) translate(-8.000000, -8.500000) "></path>
+    </g>
+</svg>
