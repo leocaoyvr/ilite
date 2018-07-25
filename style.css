@@ -88,6 +88,7 @@ strong {
     border-top: none;
     background-clip: padding-box;
     float: left;
+    clear: left; /* avoid overlapping in Safari*/
     padding: 20px;
 }
 
