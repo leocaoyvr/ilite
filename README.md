@@ -1,51 +1,50 @@
 #   I LITE Wordpress Theme
 
+![I LITE Logo](https://imgur.com/FajoEPS.png)
+
 I LITE is a minimal Wordpress theme that was designed with love.
 
 I designed and created it on Feb 2011 when I first started to learn web design and development. So basically it’s the first and experimental project I’d worked out.
 
 Feel free to download and fork it on Github.
 
-Check the live demo here: http://ilite.me
-
 Note:
 
 >   MIT License (MIT) Copyright (c) [2015] [Leo Cao]
->   A link(http://ilite.me) to I LITE is appreciated. Thx!
 
 **Article/post page**
 
-![ilite article, post page](http://img.ilite.me/ilite-article.jpg)
+![I LITE article, post page](https://imgur.com/0asjcO1.jpg)
 
 **Footer**
 
 paper stack effect in the bottom
 
-![ilite footer](http://img.ilite.me/ilite-footer.jpg)
+![I LITE footer](https://imgur.com/KznqGLg.jpg)
 
 **Comment module**
 
 using Disqus plugin
 
-![ilite Comment module](http://img.ilite.me/ilite-comment.jpg)
+![I LITE Comment module](https://imgur.com/Xl3VxtM.jpg)
 
 **Arhive page**
 
 Create New Page > Page Template > Archives, just leave empty
 
-![ilite Archive page](http://img.ilite.me/ilite-archive.jpg)
+![I LITE Archive page](https://imgur.com/yTIWPj9.jpg)
 
 **404 page**
 
  When the countdown ends, it will redirect the visitor to the homepage.
 
-![ilite 404 page](http://img.ilite.me/ilite-404.jpg)
+![I LITE 404 page](https://imgur.com/PJmGVAS.jpg)
 
 **Image gallery**
 
 using default upload/insert method, using Caption as description
 
-![ilite image gallery](http://img.ilite.me/ilite-gallery.jpg)
+![I LITE image gallery](https://imgur.com/yTKBmj2.jpg)
 
 **Welcome page**
 
@@ -53,7 +52,7 @@ Create New Page > Template > Welcome Page
 
 This part requires a bit of HTML editing, coz some of it are hard coded.
 
-![ilite welcome page](http://img.ilite.me/ilite-welcome.jpg)
+![I LITE welcome page](https://imgur.com/fgsEdOM.jpg)
 
 Finally, if you got any questions or problems, feel free to leave comment or email me.
 
